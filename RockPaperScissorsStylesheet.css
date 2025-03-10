@@ -1,0 +1,30 @@
+body{
+    margin:35px;
+}
+
+header{
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    background-color: lightgray;
+    line-height: normal;
+    font-size: 50px;
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+}
+
+img:hover{
+    transition: width 1s ease, height 1s ease;
+    width: 455px;
+    height: 355px;
+}
